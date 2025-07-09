@@ -12,7 +12,7 @@ LEFT JOIN company_dim
 WHERE 
     salary_year_avg IS NOT NULL AND 
     job_title_short = 'Data Analyst' AND 
-    job_location ='Anywhere'
+    job_location ='Anywhere' 
 ORDER BY
     salary_year_avg DESC
 LIMIT 10
